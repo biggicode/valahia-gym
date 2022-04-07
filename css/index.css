@@ -1,0 +1,236 @@
+/*Navbar style*/
+ul.navbar-nav li:hover,ul.navbar-nav li.active{
+  background-color: #fcff18;
+  
+}
+nav.navbar a.navbar-brand span{
+  background-color: #fcff18;
+  margin-right:5px;
+}
+nav.navbar a.navbar-brand h1{
+  font-size:30px;
+} 
+
+/*Button*/
+button.btn{
+  background-color: #fcff18;
+  padding:20px 40px;
+
+}
+
+/*Container*/
+
+
+
+
+    /*First image*/
+.firstimage{
+  position:relative;
+  
+}
+.imgtext{
+  color:white;
+  position:absolute;
+  left:10%;
+  top:30%;
+  z-index:1;
+  font-size:3vw;
+}
+.yellowspan{
+  color:#fcff18
+}
+.bgyellowspan{
+  background-color: #fcff18;
+}
+div.firstimage buttton.btn{
+  position:absolute;
+  top:50%;
+  left:10%;
+}
+
+/*First Quote and Icons*/
+
+.mainquote{
+  text-align:center;
+  line-height:1.5;
+}
+div.roundedicon{
+  padding:20px;
+  background-color: #fcff18;
+  border:1px solid transparent;
+  border-radius:50%;
+
+}
+div.roundedicon.running{
+  padding:20px 28px;
+}
+div.roundedicon.dumbbell{
+  padding:20px 18px;
+}
+.fa-dumbbell,.fa-running,.fa-futbol{
+  font-size:50px;
+}
+
+/*Second Image*/
+div.secondimage{
+  position:relative;
+}
+div.textdiscount{
+  position:absolute;
+  top:5%;
+  left:10%;
+  color:white;
+}
+div.textdiscount{
+  font-size:3vw;
+}
+div.secondimage i.fa-check-circle{
+  color: #fcff18;
+}
+
+/*Jumbotron*/
+
+div.jumbotron p{
+  text-align:center;
+}
+
+/*Trainers*/
+div.trainers h4{
+  text-align:center;
+  margin-bottom: 15px;
+}
+div.trainers img{
+  width:300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+/*Newsletter*/
+div.newsletter{
+  background-color:#000;
+  min-height:200px;
+}
+
+div.newsletter h2{
+ 
+  color:white;
+}
+div.newsletter h2 span {
+  color:black;
+}
+div.newsletter input{
+  padding:10px 35px;
+}
+input:focus{
+  outline: none;
+}
+/*Footer*/
+footer div.row{
+  margin:0;
+}
+footer{
+  background: url("../img/squat.jpg");
+  background-size:cover;
+  background-position: bottom;
+  height:500px;
+  color:white;
+  position: relative;
+  
+}
+footer i{
+  font-size: 30px;
+  margin-top: 5px;
+  float:left;
+  color: #fcff18;
+  margin-right:10px;
+}
+div.infobox p{
+  
+  float:left;
+}
+div.socialmedia{
+  margin-right: 67%;
+}
+div.socialmedia i:hover{
+  color: white;
+}
+p.copyright{
+  position: absolute;
+  bottom:1%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+
+/* Clase*/
+
+.aerobic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:400px;
+  background-image: url(../img/aerobic.jpg);
+  background-size: cover;
+}
+
+.copii{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:400px;
+  background-image: url(../img/copii.jpg);
+  background-size: cover;
+}
+
+.cycling{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:400px;
+  background-image: url(../img/cycling.jpg);
+  background-size: cover;
+}
+
+.fitness{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:400px;
+  background-image: url(../img/fitness.jpg);
+  background-size: cover;
+}
+
+.kickboxing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:400px;
+  background-image: url(../img/kickboxing.jpg);
+  background-size: cover;
+}
+
+.masaj{
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:400px;
+  background-image: url(../img/masaj.jpg);
+  background-size: cover;
+}
+.clase p{
+  background-color: #fcff18;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.clase .col-md-4 div{
+  box-shadow: grey 5px 5px 5px;
+}
+
+
